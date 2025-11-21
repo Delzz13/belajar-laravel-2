@@ -10,4 +10,3 @@ Route::get('/user/{id}', [homecontroller::class, 'show'])->name('users.show');
 Route::get('/fitur', function (){
     return view('feature');
 })->name('feature');
-
